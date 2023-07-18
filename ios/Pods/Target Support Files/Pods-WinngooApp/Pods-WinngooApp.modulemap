@@ -1,0 +1,6 @@
+module Pods_WinngooApp {
+  umbrella header "Pods-WinngooApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

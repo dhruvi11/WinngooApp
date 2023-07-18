@@ -43,7 +43,11 @@ const RewardSummaryScreen = ({ navigation }) => {
     var data = {
       "perPage": pageSize,
       "page": page,
+<<<<<<< HEAD
+      "order": "DESC",
+=======
       // "order": "DESC",
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     };
     var config = {
       method: "post",
@@ -57,10 +61,14 @@ const RewardSummaryScreen = ({ navigation }) => {
       .then(async (res) => {
         setIsLoading(false);
         console.log(JSON.stringify(res.data.result));
+<<<<<<< HEAD
+        setrewardSummary(res.data.result)
+=======
         console.log(JSON.stringify(res.data.result.data));
         res.data.result.data.length>0?
         setrewardSummary(res.data.result.data)
         :null
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
       })
       .catch((err) => {
         setIsLoading(false);

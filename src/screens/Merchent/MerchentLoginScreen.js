@@ -26,8 +26,8 @@ import { BaseURL, EndPoint } from "../../api/ApiConstant";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const MerchentLoginScreen = ({ navigation }) => {
-  const [email, setEmail] = useState("dhruvikachauhan1110@gmail.com");
-  const [password, setPassword] = useState("admin@123");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [isRemember, setIsRemember] = useState(false);
   const [isShowPassword, setIsShowPassword] = useState(false);
   const [isPasswordError, setIsPasswordError] = useState(false);

@@ -1,21 +1,42 @@
 [
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/drawable_youtube.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/youtube.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xhdpi_logoicon.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xhdpi/logoicon.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_membercard.png.flat",
         "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_membercard.png"
     },
     {
         "merged": "com.winngooapp-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-mdpi/ic_launcher.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_check.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_check.png"
+        "merged": "com.winngooapp-merged_res-29:/mipmap-hdpi_logoicon.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-hdpi/logoicon.png"
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_twitter.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_twitter.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_check.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/check.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_multiple.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/multiple.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xxxhdpi/ic_launcher_round.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/mipmap-xhdpi_logoicon.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-xhdpi/logoicon.png"
     },
@@ -26,48 +47,72 @@
     {
         "merged": "com.winngooapp-merged_res-29:/mipmap-hdpi_logoicon.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-hdpi/logoicon.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_instagram.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/instagram.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_gmail.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/gmail.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "com.winngooapp-merged_res-29:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
         "source": "com.winngooapp-main-31:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
-    },
-    {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_hamburger.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_hamburger.png"
-    },
-    {
-        "merged": "com.winngooapp-merged_res-29:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
         "merged": "com.winngooapp-merged_res-29:/mipmap-mdpi_logoicon.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-mdpi/logoicon.png"
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_gmail.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_gmail.png"
-    },
-    {
-        "merged": "com.winngooapp-merged_res-29:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
-    },
-    {
         "merged": "com.winngooapp-merged_res-29:/mipmap-xxxhdpi_logoicon.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-xxxhdpi/logoicon.png"
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_dollarsymbol.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/dollarsymbol.png"
+=======
+        "merged": "com.winngooapp-merged_res-29:/mipmap-mdpi_logoicon.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-mdpi/logoicon.png"
     },
     {
+        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_gmail.png.flat",
+        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_gmail.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_twitter.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/twitter.png"
+=======
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xxxhdpi_logoicon.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xxxhdpi/logoicon.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/drawable_hamburger.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/hamburger.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-xxhdpi/ic_launcher_round.png"
     },
@@ -82,56 +127,109 @@
     {
         "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_youtube.png.flat",
         "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_youtube.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_newspaper.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/newspaper.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_whatsapp.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/whatsapp.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/drawable_membercard.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/membercard.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/drawable_profile_drawer.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/profile_drawer.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-hdpi/ic_launcher.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
         "source": "com.winngooapp-main-31:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
         "merged": "com.winngooapp-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-xxhdpi/ic_launcher.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_facebook.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_facebook.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_facebook.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/facebook.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_view.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/view.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/drawable_ic_launcher_round.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/ic_launcher_round.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_logoicon.png.flat",
         "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_logoicon.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_profile.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_profile.png"
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xxhdpi_logoicon.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xxhdpi/logoicon.png"
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_instagram.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_instagram.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_creditcard.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/creditcard.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_logoicon.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/logoicon.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xxxhdpi/ic_launcher.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_profiledrawer.png.flat",
         "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_profiledrawer.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_dollarsymbol.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_dollarsymbol.png"
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_node_modules_reactnativeelementdropdown_src_assets_down.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/node_modules_reactnativeelementdropdown_src_assets_down.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_tag.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/tag.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.winngooapp-main-31:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.winngooapp-merged_res-29:/drawable_profile.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/profile.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-hdpi/ic_launcher.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     },
     {
-        "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_tag.png.flat",
-        "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_tag.png"
+        "merged": "com.winngooapp-merged_res-29:/drawable_invisible.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/invisible.png"
     },
     {
+<<<<<<< HEAD
+        "merged": "com.winngooapp-merged_res-29:/drawable_ic_launcher.png.flat",
+        "source": "com.winngooapp-main-31:/drawable/ic_launcher.png"
+=======
         "merged": "com.winngooapp-merged_res-29:/mipmap-xxhdpi_logoicon.png.flat",
         "source": "com.winngooapp-main-31:/mipmap-xxhdpi/logoicon.png"
     },
@@ -186,5 +284,6 @@
     {
         "merged": "com.winngooapp-merged_res-29:/drawable-mdpi_src_res_images_creditcard.png.flat",
         "source": "com.winngooapp-main-31:/drawable-mdpi/src_res_images_creditcard.png"
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
     }
 ]

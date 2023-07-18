@@ -57,10 +57,15 @@ const CashbackHistoryScreen = ({ navigation }) => {
     await axios(config)
       .then(async (res) => {
         setIsLoading(false);
+<<<<<<< HEAD
+        console.log(JSON.stringify(res.data.result));
+        setrewardSummary(res.data.result)
+=======
         console.log(JSON.stringify(res.data.result.data));
         res.data.result.data.length>0?
         setrewardSummary(res.data.result.data)
         :null
+>>>>>>> e9a3794e804d32992166ae159cd29213d48f5a90
       })
       .catch((err) => {
         setIsLoading(false);
