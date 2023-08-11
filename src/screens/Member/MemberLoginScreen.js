@@ -25,8 +25,8 @@ import strings from '../../res/strings/strings';
 import { BaseURL, EndPoint } from "../../api/ApiConstant";
 
 const MemberLoginScreen = ({navigation}) => {
-  const [email, setEmail] = useState('vjrajanrd@gmail.com');
-  const [password, setPassword] = useState('India@123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [isRemember, setIsRemember] = useState(false);
   const [isShowPassword, setIsShowPassword] = useState(false);
   const [isPasswordError, setIsPasswordError] = useState(false);

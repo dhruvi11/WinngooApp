@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BD0D2A80D98E23B79909EDE3A812D1C4"
-               BuildableName = "libPods-WinngooApp.a"
-               BlueprintName = "Pods-WinngooApp"
+               BuildableName = "libPods-Winngoo.a"
+               BlueprintName = "Pods-Winngoo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

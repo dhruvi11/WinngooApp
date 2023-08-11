@@ -74,12 +74,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-WinngooApp-WinngooAppTests.xcscheme</key>
+		<key>Pods-Winngoo-WinngooTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-WinngooApp.xcscheme</key>
+		<key>Pods-Winngoo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -1,5 +1,5 @@
-module Pods_WinngooApp_WinngooAppTests {
-  umbrella header "Pods-WinngooApp-WinngooAppTests-umbrella.h"
+module Pods_Winngoo_WinngooTests {
+  umbrella header "Pods-Winngoo-WinngooTests-umbrella.h"
 
   export *
   module * { export * }

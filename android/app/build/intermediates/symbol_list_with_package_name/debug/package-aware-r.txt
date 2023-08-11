@@ -1,4 +1,4 @@
-com.winngooapp
+com.Winngoo
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -55,6 +55,7 @@ anim rns_slide_in_from_right
 anim rns_slide_out_to_bottom
 anim rns_slide_out_to_left
 anim rns_slide_out_to_right
+anim rns_standard_accelerate_interpolator
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1397,6 +1398,8 @@ drawable mtrl_tabs_default_indicator
 drawable multiple
 drawable navigation_empty_icon
 drawable newspaper
+drawable node_modules_reactnavigation_elements_src_assets_backicon
+drawable node_modules_reactnavigation_elements_src_assets_backiconmask
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1412,6 +1415,17 @@ drawable notify_panel_notification_icon_bg
 drawable profile
 drawable profile_drawer
 drawable redbox_top_border_background
+drawable src_res_images_airplane
+drawable src_res_images_ambulance
+drawable src_res_images_ambulance1
+drawable src_res_images_bed
+drawable src_res_images_bin
+drawable src_res_images_helicopter
+drawable src_res_images_placeholder
+drawable src_res_images_profile
+drawable src_res_images_profile1
+drawable src_res_images_profiledrawer
+drawable src_res_images_trip
 drawable tag
 drawable test_custom_background
 drawable test_level_drawable
@@ -1433,8 +1447,6 @@ id TOP_END
 id TOP_START
 id accessibility_action_clickable_span
 id accessibility_actions
-id accessibility_collection
-id accessibility_collection_item
 id accessibility_custom_action_0
 id accessibility_custom_action_1
 id accessibility_custom_action_10
@@ -1641,11 +1653,8 @@ id password_toggle
 id peekHeight
 id pin
 id pointer_enter
-id pointer_enter_capture
 id pointer_leave
-id pointer_leave_capture
 id pointer_move
-id pointer_move_capture
 id progress_circular
 id progress_horizontal
 id radio

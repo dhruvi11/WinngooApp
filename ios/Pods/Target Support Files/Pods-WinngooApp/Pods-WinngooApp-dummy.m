@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_WinngooApp : NSObject
+@interface PodsDummy_Pods_Winngoo : NSObject
 @end
-@implementation PodsDummy_Pods_WinngooApp
+@implementation PodsDummy_Pods_Winngoo
 @end
