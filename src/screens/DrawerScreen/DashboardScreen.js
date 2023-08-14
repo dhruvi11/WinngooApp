@@ -341,8 +341,8 @@ const styles = StyleSheet.create({
     margin: responsiveScreenWidth(2),
   },
   noData: {
-    height: responsiveScreenWidth(35),
-    width: responsiveScreenWidth(35),
+    height: responsiveScreenWidth(20),
+    width: responsiveScreenWidth(20),
     justifyContent: 'center',
     alignSelf: 'center',
     margin: responsiveScreenWidth(4),

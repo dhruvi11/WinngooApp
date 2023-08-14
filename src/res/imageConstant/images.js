@@ -32,4 +32,5 @@ export default images={
     noData:require("../images/noData.png"),
     increase:require("../images/increase.png"),
     decrease:require("../images/decrease.png"),
+    GalleryIcon:require("../images/gallery.png"),
 }

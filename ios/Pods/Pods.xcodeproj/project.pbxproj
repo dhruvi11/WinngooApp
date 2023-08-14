@@ -2753,10 +2753,10 @@
 		46EB2E00017BA0 /* RNCWebViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000A6D0 /* RNCWebViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00017BB0 /* RNCWKProcessPoolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000A6F0 /* RNCWKProcessPoolManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00017C10 /* react-native-webview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017C00 /* react-native-webview-dummy.m */; };
-		46EB2E00017CF0 /* Pods-WinngooApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00017CE0 /* Pods-WinngooApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00017D50 /* Pods-WinngooApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017D40 /* Pods-WinngooApp-dummy.m */; };
-		46EB2E00017E30 /* Pods-WinngooApp-WinngooAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00017E20 /* Pods-WinngooApp-WinngooAppTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00017E90 /* Pods-WinngooApp-WinngooAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017E80 /* Pods-WinngooApp-WinngooAppTests-dummy.m */; };
+		46EB2E00017CF0 /* Pods-Winngoo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00017CE0 /* Pods-Winngoo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00017D50 /* Pods-Winngoo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017D40 /* Pods-Winngoo-dummy.m */; };
+		46EB2E00017E30 /* Pods-Winngoo-WinngooTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00017E20 /* Pods-Winngoo-WinngooTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00017E90 /* Pods-Winngoo-WinngooTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00017E80 /* Pods-Winngoo-WinngooTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -7582,25 +7582,25 @@
 		46EB2E00017BE0 /* react-native-webview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-webview.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E00017BF0 /* react-native-webview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-webview-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E00017C00 /* react-native-webview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-webview-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00017CB0 /* Pods-WinngooApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinngooApp.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00017CC0 /* Pods-WinngooApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinngooApp.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00017CD0 /* Pods-WinngooApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WinngooApp.modulemap"; sourceTree = "<group>"; };
-		46EB2E00017CE0 /* Pods-WinngooApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WinngooApp-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00017D00 /* Pods-WinngooApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinngooApp-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00017D10 /* Pods-WinngooApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinngooApp-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00017D20 /* Pods-WinngooApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WinngooApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00017D30 /* Pods-WinngooApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WinngooApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00017D40 /* Pods-WinngooApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WinngooApp-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00017DF0 /* Pods-WinngooApp-WinngooAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinngooApp-WinngooAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00017E00 /* Pods-WinngooApp-WinngooAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinngooApp-WinngooAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00017E10 /* Pods-WinngooApp-WinngooAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WinngooApp-WinngooAppTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00017E20 /* Pods-WinngooApp-WinngooAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WinngooApp-WinngooAppTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00017E40 /* Pods-WinngooApp-WinngooAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinngooApp-WinngooAppTests-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00017E50 /* Pods-WinngooApp-WinngooAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinngooApp-WinngooAppTests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00017E60 /* Pods-WinngooApp-WinngooAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WinngooApp-WinngooAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00017E70 /* Pods-WinngooApp-WinngooAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WinngooApp-WinngooAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00017E80 /* Pods-WinngooApp-WinngooAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WinngooApp-WinngooAppTests-dummy.m"; sourceTree = "<group>"; };
-		4F435542A49FBEEED72529C3167AF82A /* Pods-WinngooApp-WinngooAppTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-WinngooApp-WinngooAppTests"; path = "libPods-WinngooApp-WinngooAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EB2E00017CB0 /* Pods-Winngoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Winngoo.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00017CC0 /* Pods-Winngoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Winngoo.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00017CD0 /* Pods-Winngoo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Winngoo.modulemap"; sourceTree = "<group>"; };
+		46EB2E00017CE0 /* Pods-Winngoo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Winngoo-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00017D00 /* Pods-Winngoo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Winngoo-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00017D10 /* Pods-Winngoo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Winngoo-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00017D20 /* Pods-Winngoo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Winngoo-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00017D30 /* Pods-Winngoo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Winngoo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00017D40 /* Pods-Winngoo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Winngoo-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00017DF0 /* Pods-Winngoo-WinngooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Winngoo-WinngooTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00017E00 /* Pods-Winngoo-WinngooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Winngoo-WinngooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00017E10 /* Pods-Winngoo-WinngooTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Winngoo-WinngooTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00017E20 /* Pods-Winngoo-WinngooTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Winngoo-WinngooTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00017E40 /* Pods-Winngoo-WinngooTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Winngoo-WinngooTests-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00017E50 /* Pods-Winngoo-WinngooTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Winngoo-WinngooTests-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00017E60 /* Pods-Winngoo-WinngooTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Winngoo-WinngooTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00017E70 /* Pods-Winngoo-WinngooTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Winngoo-WinngooTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00017E80 /* Pods-Winngoo-WinngooTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Winngoo-WinngooTests-dummy.m"; sourceTree = "<group>"; };
+		4F435542A49FBEEED72529C3167AF82A /* Pods-Winngoo-WinngooTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Winngoo-WinngooTests"; path = "libPods-Winngoo-WinngooTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNScreens; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCF98CEFF94C742080B6965D537AD0 /* react-native-safe-area-context */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-safe-area-context"; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5737DDB4BC95AD399B3206838AB97095 /* RNCAsyncStorage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNCAsyncStorage; path = libRNCAsyncStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -7628,7 +7628,7 @@
 		C777CF2FB1E39A45CBBDB54E8693F471 /* RNReanimated */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNReanimated; path = libRNReanimated.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9CF62342D0D8A46D8176D06AABE411 /* react-native-image-picker */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-image-picker"; path = "libreact-native-image-picker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C775614AC76D44CECB6BE08B022F1F /* ReactCommon */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = ReactCommon; path = libReactCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D68B99286C1A88D4FB6FDE91A352B490 /* Pods-WinngooApp */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-WinngooApp"; path = "libPods-WinngooApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68B99286C1A88D4FB6FDE91A352B490 /* Pods-Winngoo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Winngoo"; path = "libPods-Winngoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F334F2E90E3EE462FC4192AF5C03BD /* React-jsi */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsi"; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A16705C69FC7DE11C2469A4A0F8358 /* React-RCTText */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTText"; path = "libReact-RCTText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7178FECB829C9576A3723658B07F087 /* React-Codegen */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Codegen"; path = "libReact-Codegen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -8011,8 +8011,8 @@
 				F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */,
 				3CA7A9404CCDD6BA22C97F8348CE3209 /* glog */,
 				FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* libevent */,
-				D68B99286C1A88D4FB6FDE91A352B490 /* Pods-WinngooApp */,
-				4F435542A49FBEEED72529C3167AF82A /* Pods-WinngooApp-WinngooAppTests */,
+				D68B99286C1A88D4FB6FDE91A352B490 /* Pods-Winngoo */,
+				4F435542A49FBEEED72529C3167AF82A /* Pods-Winngoo-WinngooTests */,
 				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
 				F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */,
 				68D0E680E3D787063C2716E812E2A5AE /* React-bridging */,
@@ -8061,8 +8061,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00017CA0 /* Pods-WinngooApp */,
-				46EB2E00017DE0 /* Pods-WinngooApp-WinngooAppTests */,
+				46EB2E00017CA0 /* Pods-Winngoo */,
+				46EB2E00017DE0 /* Pods-Winngoo-WinngooTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -12961,38 +12961,38 @@
 			path = "../../ios/Pods/Target Support Files/react-native-webview";
 			sourceTree = "<group>";
 		};
-		46EB2E00017CA0 /* Pods-WinngooApp */ = {
+		46EB2E00017CA0 /* Pods-Winngoo */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00017CD0 /* Pods-WinngooApp.modulemap */,
-				46EB2E00017D30 /* Pods-WinngooApp-acknowledgements.markdown */,
-				46EB2E00017D20 /* Pods-WinngooApp-acknowledgements.plist */,
-				46EB2E00017D40 /* Pods-WinngooApp-dummy.m */,
-				46EB2E00017D00 /* Pods-WinngooApp-frameworks.sh */,
-				46EB2E00017D10 /* Pods-WinngooApp-resources.sh */,
-				46EB2E00017CE0 /* Pods-WinngooApp-umbrella.h */,
-				46EB2E00017CC0 /* Pods-WinngooApp.debug.xcconfig */,
-				46EB2E00017CB0 /* Pods-WinngooApp.release.xcconfig */,
+				46EB2E00017CD0 /* Pods-Winngoo.modulemap */,
+				46EB2E00017D30 /* Pods-Winngoo-acknowledgements.markdown */,
+				46EB2E00017D20 /* Pods-Winngoo-acknowledgements.plist */,
+				46EB2E00017D40 /* Pods-Winngoo-dummy.m */,
+				46EB2E00017D00 /* Pods-Winngoo-frameworks.sh */,
+				46EB2E00017D10 /* Pods-Winngoo-resources.sh */,
+				46EB2E00017CE0 /* Pods-Winngoo-umbrella.h */,
+				46EB2E00017CC0 /* Pods-Winngoo.debug.xcconfig */,
+				46EB2E00017CB0 /* Pods-Winngoo.release.xcconfig */,
 			);
-			name = "Pods-WinngooApp";
-			path = "Target Support Files/Pods-WinngooApp";
+			name = "Pods-Winngoo";
+			path = "Target Support Files/Pods-Winngoo";
 			sourceTree = "<group>";
 		};
-		46EB2E00017DE0 /* Pods-WinngooApp-WinngooAppTests */ = {
+		46EB2E00017DE0 /* Pods-Winngoo-WinngooTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00017E10 /* Pods-WinngooApp-WinngooAppTests.modulemap */,
-				46EB2E00017E70 /* Pods-WinngooApp-WinngooAppTests-acknowledgements.markdown */,
-				46EB2E00017E60 /* Pods-WinngooApp-WinngooAppTests-acknowledgements.plist */,
-				46EB2E00017E80 /* Pods-WinngooApp-WinngooAppTests-dummy.m */,
-				46EB2E00017E40 /* Pods-WinngooApp-WinngooAppTests-frameworks.sh */,
-				46EB2E00017E50 /* Pods-WinngooApp-WinngooAppTests-resources.sh */,
-				46EB2E00017E20 /* Pods-WinngooApp-WinngooAppTests-umbrella.h */,
-				46EB2E00017E00 /* Pods-WinngooApp-WinngooAppTests.debug.xcconfig */,
-				46EB2E00017DF0 /* Pods-WinngooApp-WinngooAppTests.release.xcconfig */,
+				46EB2E00017E10 /* Pods-Winngoo-WinngooTests.modulemap */,
+				46EB2E00017E70 /* Pods-Winngoo-WinngooTests-acknowledgements.markdown */,
+				46EB2E00017E60 /* Pods-Winngoo-WinngooTests-acknowledgements.plist */,
+				46EB2E00017E80 /* Pods-Winngoo-WinngooTests-dummy.m */,
+				46EB2E00017E40 /* Pods-Winngoo-WinngooTests-frameworks.sh */,
+				46EB2E00017E50 /* Pods-Winngoo-WinngooTests-resources.sh */,
+				46EB2E00017E20 /* Pods-Winngoo-WinngooTests-umbrella.h */,
+				46EB2E00017E00 /* Pods-Winngoo-WinngooTests.debug.xcconfig */,
+				46EB2E00017DF0 /* Pods-Winngoo-WinngooTests.release.xcconfig */,
 			);
-			name = "Pods-WinngooApp-WinngooAppTests";
-			path = "Target Support Files/Pods-WinngooApp-WinngooAppTests";
+			name = "Pods-Winngoo-WinngooTests";
+			path = "Target Support Files/Pods-Winngoo-WinngooTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -15070,7 +15070,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017CF0 /* Pods-WinngooApp-umbrella.h in Headers */,
+				46EB2E00017CF0 /* Pods-Winngoo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15078,7 +15078,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017E30 /* Pods-WinngooApp-WinngooAppTests-umbrella.h in Headers */,
+				46EB2E00017E30 /* Pods-Winngoo-WinngooTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -15388,9 +15388,9 @@
 			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
 			productType = "com.apple.product-type.library.static";
 		};
-		622C4BD878727A97FD3235AB132A7D50 /* Pods-WinngooApp-WinngooAppTests */ = {
+		622C4BD878727A97FD3235AB132A7D50 /* Pods-Winngoo-WinngooTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00017D70 /* Build configuration list for PBXNativeTarget "Pods-WinngooApp-WinngooAppTests" */;
+			buildConfigurationList = 46EB2E00017D70 /* Build configuration list for PBXNativeTarget "Pods-Winngoo-WinngooTests" */;
 			buildPhases = (
 				46EB2E00017DB0 /* Headers */,
 				46EB2E00017DC0 /* Sources */,
@@ -15456,9 +15456,9 @@
 				46EB2E00018CB0 /* PBXTargetDependency */,
 				46EB2E00018CD0 /* PBXTargetDependency */,
 			);
-			name = "Pods-WinngooApp-WinngooAppTests";
-			productName = "Pods-WinngooApp-WinngooAppTests";
-			productReference = 4F435542A49FBEEED72529C3167AF82A /* Pods-WinngooApp-WinngooAppTests */;
+			name = "Pods-Winngoo-WinngooTests";
+			productName = "Pods-Winngoo-WinngooTests";
+			productReference = 4F435542A49FBEEED72529C3167AF82A /* Pods-Winngoo-WinngooTests */;
 			productType = "com.apple.product-type.library.static";
 		};
 		651511D7DA7F07F9FC9AA40A2E86270D /* React-RCTNetwork */ = {
@@ -15804,9 +15804,9 @@
 			productReference = 8F65F9361F2069CF9E9D751272968DE4 /* RNGestureHandler */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BD0D2A80D98E23B79909EDE3A812D1C4 /* Pods-WinngooApp */ = {
+		BD0D2A80D98E23B79909EDE3A812D1C4 /* Pods-Winngoo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00017C30 /* Build configuration list for PBXNativeTarget "Pods-WinngooApp" */;
+			buildConfigurationList = 46EB2E00017C30 /* Build configuration list for PBXNativeTarget "Pods-Winngoo" */;
 			buildPhases = (
 				46EB2E00017C70 /* Headers */,
 				46EB2E00017C80 /* Sources */,
@@ -15872,9 +15872,9 @@
 				46EB2E000185B0 /* PBXTargetDependency */,
 				46EB2E000185D0 /* PBXTargetDependency */,
 			);
-			name = "Pods-WinngooApp";
-			productName = "Pods-WinngooApp";
-			productReference = D68B99286C1A88D4FB6FDE91A352B490 /* Pods-WinngooApp */;
+			name = "Pods-Winngoo";
+			productName = "Pods-Winngoo";
+			productReference = D68B99286C1A88D4FB6FDE91A352B490 /* Pods-Winngoo */;
 			productType = "com.apple.product-type.library.static";
 		};
 		BD9A27D8398DEB3205D3F8937B0672A0 /* react-native-safe-area-context */ = {
@@ -16212,8 +16212,8 @@
 				D0EFEFB685D97280256C559792236873 /* glog */,
 				04A30E186743192DFB26B0FD7DB8F250 /* libevent */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
-				BD0D2A80D98E23B79909EDE3A812D1C4 /* Pods-WinngooApp */,
-				622C4BD878727A97FD3235AB132A7D50 /* Pods-WinngooApp-WinngooAppTests */,
+				BD0D2A80D98E23B79909EDE3A812D1C4 /* Pods-Winngoo */,
+				622C4BD878727A97FD3235AB132A7D50 /* Pods-Winngoo-WinngooTests */,
 				EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */,
 				E7E7CE52C8C68B17224FF8C262D80ABF /* RCTRequired */,
 				D20469A9A1E5CFB26045EAEBE3F88E5E /* RCTTypeSafety */,
@@ -17627,7 +17627,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017D50 /* Pods-WinngooApp-dummy.m in Sources */,
+				46EB2E00017D50 /* Pods-Winngoo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -17635,7 +17635,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00017E90 /* Pods-WinngooApp-WinngooAppTests-dummy.m in Sources */,
+				46EB2E00017E90 /* Pods-Winngoo-WinngooTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -22789,7 +22789,7 @@
 		};
 		46EB2E00017C40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00017CB0 /* Pods-WinngooApp.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00017CB0 /* Pods-Winngoo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -22798,7 +22798,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WinngooApp/Pods-WinngooApp.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Winngoo/Pods-Winngoo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -22812,7 +22812,7 @@
 		};
 		46EB2E00017C50 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00017CC0 /* Pods-WinngooApp.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00017CC0 /* Pods-Winngoo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -22821,7 +22821,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WinngooApp/Pods-WinngooApp.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Winngoo/Pods-Winngoo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -22834,7 +22834,7 @@
 		};
 		46EB2E00017D80 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00017DF0 /* Pods-WinngooApp-WinngooAppTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00017DF0 /* Pods-Winngoo-WinngooTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -22843,7 +22843,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WinngooApp-WinngooAppTests/Pods-WinngooApp-WinngooAppTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Winngoo-WinngooTests/Pods-Winngoo-WinngooTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -22857,7 +22857,7 @@
 		};
 		46EB2E00017D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00017E00 /* Pods-WinngooApp-WinngooAppTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00017E00 /* Pods-Winngoo-WinngooTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -22866,7 +22866,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WinngooApp-WinngooAppTests/Pods-WinngooApp-WinngooAppTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Winngoo-WinngooTests/Pods-Winngoo-WinngooTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -23402,7 +23402,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00017C30 /* Build configuration list for PBXNativeTarget "Pods-WinngooApp" */ = {
+		46EB2E00017C30 /* Build configuration list for PBXNativeTarget "Pods-Winngoo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00017C50 /* Debug */,
@@ -23411,7 +23411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00017D70 /* Build configuration list for PBXNativeTarget "Pods-WinngooApp-WinngooAppTests" */ = {
+		46EB2E00017D70 /* Build configuration list for PBXNativeTarget "Pods-Winngoo-WinngooTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00017D90 /* Debug */,

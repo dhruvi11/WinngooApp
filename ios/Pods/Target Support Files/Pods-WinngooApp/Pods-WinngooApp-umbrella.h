@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_WinngooAppVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_WinngooAppVersionString[];
+FOUNDATION_EXPORT double Pods_WinngooVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_WinngooVersionString[];
 

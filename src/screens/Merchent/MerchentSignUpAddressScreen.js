@@ -69,7 +69,7 @@ const MerchentSignUpAddressScreen = ({ navigation ,route}) => {
         country:country,
         postCode:postCode
       };
-      navigation.navigate("MerchentSignUpBusinessScreen", { addressdetail: data,detail:route.details });
+      navigation.navigate("MerchentSignUpBusinessScreen", { addressdetail: data,detail:route.params });
     } catch (e) {
       console.log(e);
     }

@@ -39,7 +39,7 @@ const MerchentSignUpScreen = ({ navigation }) => {
   const [lastName, setLastName] = useState("");
   const [gender, setGender] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
-
+  const [isAgrree, setisAgrree] = useState(false);
   const [emailErr, setEmailErr] = useState(false);
   const [confirmEmailErr, setConfirmEmailErr] = useState(false);
   const [confirmPasswordErr, setConfirmPasswordErr] = useState(false);
@@ -62,22 +62,22 @@ const MerchentSignUpScreen = ({ navigation }) => {
       setLastNameErr(true);
     } else if (gender === "") {
       setGenderErr(true);
-    } else if (email === "" || !regexEmail.test(email)) {
+    } else if (email === "") {
       setEmailErr(true);
-    } else if (confirmEmail === "" || !regexEmail.test(confirmEmail)) {
+    } else if (confirmEmail === "") {
       setConfirmEmailErr(true);
     } else if (confirmEmail !== email) {
       setMatchEmailErr(true);
-    } else if (password === "" || !regexPassword.test(password)) {
+    } else if (password === "") {
       setPasswordErr(true);
-    } else if (confirmPassword === "" || !regexPassword.test(confirmPassword)) {
+    } else if (confirmPassword === "") {
       setConfirmPasswordErr(true);
     } else if (confirmPassword !== password) {
       setMatchPasswordErr(true);
     } else if (phoneNumber === "") {
       setPhoneNumberErr(true);
     } else {
-      setUserDetail();
+      setUserDetail()
     }
   };
   const setUserDetail = async () => {
@@ -88,6 +88,7 @@ const MerchentSignUpScreen = ({ navigation }) => {
         gender: gender,
         email: email,
         password: password,
+        phoneNumber: phoneNumber,
       };
       navigation.navigate("MerchentSignUpAddressScreen", { details: data });
     } catch (e) {
@@ -141,7 +142,7 @@ const MerchentSignUpScreen = ({ navigation }) => {
                 value={gender}
                 onChange={(item) => {
                   setGender(item.value);
-                  setGenderErr(false);
+                  setGenderErr(item.label);
                 }}
               />
               {genderErr ? (
@@ -280,7 +281,10 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     margin: responsiveScreenWidth(3),
     marginTop: responsiveScreenWidth(4),
-    height:Platform.OS==="ios"?responsiveScreenWidth(12):responsiveScreenWidth(12)
+    height:
+      Platform.OS === "ios"
+        ? responsiveScreenWidth(12)
+        : responsiveScreenWidth(12),
   },
   loginBtn: {
     width: "75%",
@@ -347,6 +351,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     margin: responsiveScreenWidth(5),
   },
+
 });
 
 export default MerchentSignUpScreen;
