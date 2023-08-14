@@ -124,7 +124,7 @@ const MemberSignUpScreen = ({ navigation }) => {
       redirect: "follow",
     };
 
-    fetch("https://winngoo.co.uk/api/user/register-member", requestOptions)
+    fetch("https://WinngooApp.co.uk/api/user/register-member", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         console.log(JSON.stringify(result));
@@ -400,7 +400,7 @@ const MemberSignUpScreen = ({ navigation }) => {
                   >
                     Terms and Conditions
                   </Text>
-                  <Text> of Winngoo.</Text>
+                  <Text> of WinngooApp.</Text>
                 </Text>
               </View>
             </View>

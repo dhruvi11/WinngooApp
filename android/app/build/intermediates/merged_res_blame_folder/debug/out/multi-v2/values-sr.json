@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.Winngoo.app-mergeDebugResources-27:/values-sr/values-sr.xml",
+            "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/1959ca0158475168dbd3c728961ee764/transformed/appcompat-1.4.1/res/values-sr/values-sr.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.Winngoo.app-mergeDebugResources-27:/values/values.xml",
+            "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3e5afab98c29814dd1915403f098cf5a/transformed/jetified-react-native-0.69.12-debug/res/values/values.xml",

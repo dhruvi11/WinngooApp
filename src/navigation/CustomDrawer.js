@@ -162,11 +162,11 @@ const CustomDrawer = ({ navigation }) => {
             {global.loginTypeTemp === "member" ? <Text
               onPress={() => {
                 setProfileModal(false);
-                navigation.navigate("WinngooCardDetail");
+                navigation.navigate("WinngooAppCardDetail");
               }}
               style={styles.modaltextStyle}
             >
-              Winngoo Card Detail
+              WinngooApp Card Detail
             </Text> : null}
             <View style={styles.modalline} />
             <Text

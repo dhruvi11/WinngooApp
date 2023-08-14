@@ -17,7 +17,6 @@
 #include <memory>
 #include <utility>
 
-#include <folly/Memory.h>
 #include <folly/Portability.h>
 #include <folly/lang/Exception.h>
 
@@ -496,13 +495,13 @@ not_null_shared_ptr<T> const_pointer_cast(not_null_shared_ptr<U>&& r) {
 template <typename T, typename U>
 not_null_shared_ptr<T> reinterpret_pointer_cast(
     const not_null_shared_ptr<U>& r) {
-  auto p = folly::reinterpret_pointer_cast<T, U>(r.unwrap());
+  auto p = std::reinterpret_pointer_cast<T, U>(r.unwrap());
   return not_null_shared_ptr<T>(
       std::move(p), detail::secret_guaranteed_not_null::get());
 }
 template <typename T, typename U>
 not_null_shared_ptr<T> reinterpret_pointer_cast(not_null_shared_ptr<U>&& r) {
-  auto p = folly::reinterpret_pointer_cast<T, U>(std::move(r).unwrap());
+  auto p = std::reinterpret_pointer_cast<T, U>(std::move(r).unwrap());
   return not_null_shared_ptr<T>(
       std::move(p), detail::secret_guaranteed_not_null::get());
 }

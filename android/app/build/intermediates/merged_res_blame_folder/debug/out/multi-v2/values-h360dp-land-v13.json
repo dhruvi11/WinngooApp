@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.Winngoo.app-mergeDebugResources-27:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/cb5be260b8e0eb221444bb0af11c462c/transformed/material-1.1.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",

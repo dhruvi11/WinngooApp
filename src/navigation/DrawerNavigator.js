@@ -8,7 +8,7 @@ import colors from "../res/colors/colors";
 import { responsiveScreenWidth } from "../utils/Size";
 import DashboardScreen from "../screens/DrawerScreen/DashboardScreen";
 import PersonalInfoScreen from "../screens/DrawerScreen/ProfileDetail/PersonalInfoScreen";
-import WinngooCardDetail from "../screens/DrawerScreen/ProfileDetail/WinngooCardDetail";
+import WinngooAppCardDetail from "../screens/DrawerScreen/ProfileDetail/WinngooAppCardDetail";
 import ChangePasswordScreen from "../screens/DrawerScreen/ProfileDetail/ChangePasswordScreen";
 import CardDetailScreen from "../screens/DrawerScreen/ProfileDetail/CardDetailScreen";
 import ProfileEditScreen from "../screens/DrawerScreen/ProfileDetail/ProfileEditScreen";
@@ -105,8 +105,8 @@ const DrawerNavigator = () => {
         options={{ headerShown: false }}
       />
       <Drawer.Screen
-        name={"WinngooCardDetail"}
-        component={WinngooCardDetail}
+        name={"WinngooAppCardDetail"}
+        component={WinngooAppCardDetail}
         options={{ headerShown: false }}
       />
 

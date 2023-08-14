@@ -70,9 +70,9 @@ const DashboardScreen = ({ navigation }) => {
         setdiscountContribute(res.data.result.discount);
         setdiscountPointEarned(res.data.result.received_discount_points);
         setpendingRefferalEarning(res.data.result.pending_referral_earning);
-        setrefferalCode(res.data.result.winngoo_user.referral_code);
+        setrefferalCode(res.data.result.WinngooApp_user.referral_code);
         setrefferalEarning(res.data.result.referral_earning);
-        global.refferalCode = res.data.result.winngoo_user.referral_code;
+        global.refferalCode = res.data.result.WinngooApp_user.referral_code;
         global.image=res.data.result.image!=null?res.data.result.image:null
       })
       .catch((err) => {

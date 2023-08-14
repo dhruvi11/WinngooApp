@@ -38,7 +38,7 @@ export default strings = {
   DiscountCode: "Discount Code",
   BirthMonth: "Birth Month",
   AcceptText1: " I accept ",
-  AcceptText2: " of Winngoo.",
+  AcceptText2: " of WinngooApp.",
   PrivacyPolicy: " Privacy Policy ",
   TermsCondition: "Terms and Conditions ",
   //change passowrd ============================
@@ -80,7 +80,7 @@ export default strings = {
   StartDate:"Start Date: ",
   ExpireDate:"Expire Date: ",
   //Wingo Card Detail ============================
-  CardDetail: "Winngoo Bank Detail",
+  CardDetail: "WinngooApp Bank Detail",
   //Business  Tagline ============================
   BusinessTagline: "Manage Business Taglines",
   AddBusinessTagline: "Add Business Taglines",
