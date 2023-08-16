@@ -21,8 +21,8 @@
 14-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:6:1-77
 14-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:6:18-74
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-15-->[com.facebook.flipper:flipper:0.125.0] /Users/apple/.gradle/caches/transforms-3/fb9516253eace7de87a34c3da5e2464c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
-15-->[com.facebook.flipper:flipper:0.125.0] /Users/apple/.gradle/caches/transforms-3/fb9516253eace7de87a34c3da5e2464c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/apple/.gradle/caches/transforms-3/fa8aeac8d74469bf0037511e5bef827b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/apple/.gradle/caches/transforms-3/fa8aeac8d74469bf0037511e5bef827b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[:react-native-community_netinfo] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
 16-->[:react-native-community_netinfo] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
@@ -34,7 +34,7 @@
 20        android:allowBackup="false"
 20-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:13:7-34
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] /Users/apple/.gradle/caches/transforms-3/efec5fafe039b3bdbf001de171817102/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.7.0] /Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/logoicon"
 23-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:11:7-38
@@ -113,25 +113,25 @@
 61-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
 62        </provider>
 63        <provider
-63-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 64            android:name="androidx.startup.InitializationProvider"
-64-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
 65            android:authorities="com.WinngooApp.androidx-startup"
-65-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
 66            android:exported="false" >
-66-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
 67            <meta-data
-67-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-68-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
 69                android:value="androidx.startup" />
-69-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/cb1aaaf1cc846fde74df20a728207d52/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 70            <meta-data
-70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/df4ad10f15bfdd3c604cb8fbf72a36e0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/7d7374571dae9fd893e807fc68b771a3/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/df4ad10f15bfdd3c604cb8fbf72a36e0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/7d7374571dae9fd893e807fc68b771a3/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 72                android:value="androidx.startup" />
-72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/df4ad10f15bfdd3c604cb8fbf72a36e0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/7d7374571dae9fd893e807fc68b771a3/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 73        </provider>
 74    </application>
 75

@@ -4,7 +4,7 @@
             "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-3/1959ca0158475168dbd3c728961ee764/transformed/appcompat-1.4.1/res/values-port/values-port.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

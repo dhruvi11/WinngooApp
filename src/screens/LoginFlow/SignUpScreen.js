@@ -27,6 +27,7 @@ import strings from '../../res/strings/strings';
 const genderList = [
   {label: 'Female', value: 'Female'},
   {label: 'Male', value: 'Male'},
+  { label: "Other", value: "other" },
 ];
 const MemberSignUpScreen = ({navigation}) => {
   const [email, setEmail] = useState('');

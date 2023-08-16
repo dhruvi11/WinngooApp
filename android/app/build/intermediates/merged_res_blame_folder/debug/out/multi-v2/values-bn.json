@@ -4,7 +4,7 @@
             "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-3/1959ca0158475168dbd3c728961ee764/transformed/appcompat-1.4.1/res/values-bn/values-bn.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-3/efec5fafe039b3bdbf001de171817102/transformed/core-1.7.0/res/values-bn/values-bn.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

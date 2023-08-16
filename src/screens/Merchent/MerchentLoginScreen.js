@@ -29,8 +29,8 @@ const MerchentLoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isRemember, setIsRemember] = useState(false);
-  const [isShowPassword, setIsShowPassword] = useState(false);
   const [isPasswordError, setIsPasswordError] = useState(false);
+  const [isShowPassword, setIsShowPassword] = useState(false);
   const [isEmailError, setIsEmailError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   // ==========================================Api Call================
@@ -70,11 +70,11 @@ const MerchentLoginScreen = ({ navigation }) => {
       <View style={styles.container}>
         <Spinner visible={isLoading} />
         <Image
-          source={images.LogoIcon}
+          source={images.logoWithName}
           resizeMode="contain"
           style={styles.imageicon}
         />
-        <Text style={styles.loginText}>{strings.LOGIN}</Text>
+        {/* <Text style={styles.loginText}>{strings.LOGIN}</Text> */}
 
         <TextInput
           value={email}
@@ -88,15 +88,35 @@ const MerchentLoginScreen = ({ navigation }) => {
         {isEmailError ? (
           <Text style={styles.errMsg}>{strings.EnterEmailErr}</Text>
         ) : null}
-        <TextInput
-          value={password}
-          onChangeText={(password) => {
-            setPassword(password);
-          }}
-          secureTextEntry={isShowPassword}
-          placeholder={strings.EnterPassword}
-          style={styles.textInputstyle}
-        />
+        <View style={[styles.textInputstyle1, { flexDirection: "row" }]}>
+          <TextInput
+            value={password}
+            onChangeText={(password) => {
+              setPassword(password);
+            }}
+            secureTextEntry={isShowPassword}
+            placeholder={strings.EnterPassword}
+            style={{
+              fontSize: responsiveScreenFontSize(2),
+              width: "85%",
+              alignSelf: "center",
+              color: colors.BLACK,
+            }}
+          />
+          <TouchableOpacity    onPress={() => {
+                setIsShowPassword(!isShowPassword);
+              }}>
+
+          <Image
+            source={isShowPassword ? images.EyeIcon : images.InvisibleIcon}
+            style={{
+              height: responsiveScreenWidth(5),
+              width: responsiveScreenWidth(5),
+              marginTop:responsiveScreenWidth(3)
+            }}
+            />
+            </TouchableOpacity>
+        </View>
         {isPasswordError ? (
           <Text style={styles.errMsg}>{strings.EnterPasswordErr}</Text>
         ) : null}
@@ -187,6 +207,19 @@ const styles = StyleSheet.create({
     color: colors.BLACK,
     height:Platform.OS==="ios"?responsiveScreenWidth(12):responsiveScreenWidth(12)
   },
+  textInputstyle1: {
+    backgroundColor: colors.TEXTINPUTBACKGROUND,
+    borderColor: colors.BLACK,
+    borderWidth: responsiveScreenWidth(0.1),
+    width: "75%",
+    alignSelf: "center",
+    margin: responsiveScreenWidth(3),
+    color: colors.BLACK,
+    height:
+      Platform.OS === "ios"
+        ? responsiveScreenWidth(12)
+        : responsiveScreenWidth(12),
+  },
   rowView: {
     flexDirection: "row",
     alignSelf: "center",
@@ -223,8 +256,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   imageicon: {
-    height: responsiveScreenWidth(20),
-    width: responsiveScreenWidth(20),
+    height: responsiveScreenWidth(40),
+    width: responsiveScreenWidth(60),
     justifyContent: "center",
     alignSelf: "center",
   },

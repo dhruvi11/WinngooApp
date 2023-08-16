@@ -31,6 +31,7 @@ import { BaseURL, EndPoint } from "../../api/ApiConstant";
 const genderList = [
   { label: "Female", value: "female" },
   { label: "Male", value: "male" },
+  { label: "Other", value: "other" },
 ];
 const monthList = [
   { label: "January", value: "january" },
@@ -71,6 +72,8 @@ const MemberSignUpScreen = ({ navigation }) => {
   const [isLoading, setisLoading] = useState(false);
   const [successModal, setsuccessModal] = useState(false);
   const [failureModal, setfailureModal] = useState(false);
+  const [isShowPassword, setIsShowPassword] = useState(true);
+  const [isShowPassword1, setIsShowPassword1] = useState(true);
   // ==========================================Api Call================
   const checkValidation = () => {
     if (
@@ -89,9 +92,9 @@ const MemberSignUpScreen = ({ navigation }) => {
     ) {
       alert("Please fill form properly!!!");
     } else {
-      isAgrree?
-      callSignUpApi():
-      alert("Please accept term and condition to procced")
+      isAgrree
+        ? callSignUpApi()
+        : alert("Please accept term and condition to procced");
     }
   };
 
@@ -150,7 +153,30 @@ const MemberSignUpScreen = ({ navigation }) => {
         <KeyboardAvoidingView style={styles.container}>
           <View style={styles.container}>
             <Spinner visible={isLoading} />
-            <Text style={styles.loginText}>{strings.MemberPersonalDetail}</Text>
+            <View style={{ flexDirection: "row" }}>
+              <TouchableOpacity
+                onPress={() => {
+                  navigation.goBack();
+                }}
+              >
+                <Image
+                  source={images.leftArrow}
+                  style={{
+                    height: responsiveScreenWidth(5),
+                    width: responsiveScreenWidth(5),
+                    margin: responsiveScreenWidth(5),
+                  }}
+                />
+              </TouchableOpacity>
+              <Text
+                style={[
+                  styles.loginText,
+                  { marginTop: responsiveScreenWidth(1) },
+                ]}
+              >
+                {strings.MemberPersonalDetail}
+              </Text>
+            </View>
             <View style={styles.mainview}>
               <Text style={styles.titleText}>
                 {strings.FirstName}
@@ -226,26 +252,76 @@ const MemberSignUpScreen = ({ navigation }) => {
                 {strings.Password}
                 <Text style={styles.starText}>{" *"}</Text>
               </Text>
-              <TextInput
-                value={password}
-                onChangeText={(password) => {
-                  setPassword(password);
-                }}
-                placeholder={strings.EnterEmail}
-                style={styles.textInputstyle}
-              />
+              <View style={[styles.textInputstyle1, { flexDirection: "row" }]}>
+                <TextInput
+                  value={password}
+                  onChangeText={(password) => {
+                    setPassword(password);
+                  }}
+                  secureTextEntry={isShowPassword}
+                  placeholder={strings.EnterPassword}
+                  style={{
+                    fontSize: responsiveScreenFontSize(2),
+                    width: "85%",
+                    alignSelf: "center",
+                    color: colors.BLACK,
+                  }}
+                />
+                <TouchableOpacity
+                  onPress={() => {
+                    setIsShowPassword(!isShowPassword);
+                  }}
+                >
+                  <Image
+                    source={
+                      isShowPassword ? images.EyeIcon : images.InvisibleIcon
+                    }
+                    style={{
+                      height: responsiveScreenWidth(5),
+                      width: responsiveScreenWidth(5),
+                      marginTop: responsiveScreenWidth(3),
+                    }}
+                  />
+                </TouchableOpacity>
+              </View>
+
               <Text style={styles.titleText}>
                 {strings.ConfirmPassword}
                 <Text style={styles.starText}>{" *"}</Text>
               </Text>
-              <TextInput
-                value={confirmPassword}
-                onChangeText={(confirmPassword) => {
-                  setConfirmPassword(confirmPassword);
-                }}
-                placeholder={strings.EnterConfirmPassword}
-                style={styles.textInputstyle}
-              />
+              <View style={[styles.textInputstyle1, { flexDirection: "row" }]}>
+                <TextInput
+                  value={confirmPassword}
+                  onChangeText={(confirmPassword) => {
+                    setConfirmPassword(confirmPassword);
+                  }}
+                  secureTextEntry={isShowPassword1}
+                  placeholder={strings.EnterPassword}
+                  style={{
+                    fontSize: responsiveScreenFontSize(2),
+                    width: "85%",
+                    alignSelf: "center",
+                    color: colors.BLACK,
+                  }}
+                />
+                <TouchableOpacity
+                  onPress={() => {
+                    setIsShowPassword1(!isShowPassword1);
+                  }}
+                >
+                  <Image
+                    source={
+                      isShowPassword1 ? images.EyeIcon : images.InvisibleIcon
+                    }
+                    style={{
+                      height: responsiveScreenWidth(5),
+                      width: responsiveScreenWidth(5),
+                      marginTop: responsiveScreenWidth(3),
+                    }}
+                  />
+                </TouchableOpacity>
+              </View>
+
               <Text style={styles.titleText}>
                 {strings.AddressLine1}
                 <Text style={styles.starText}>{" *"}</Text>
@@ -370,9 +446,10 @@ const MemberSignUpScreen = ({ navigation }) => {
                   marginTop: responsiveScreenWidth(3),
                 }}
               >
-                <TouchableOpacity onPress={()=>{
-                  setisAgrree(!isAgrree)
-                }}
+                <TouchableOpacity
+                  onPress={() => {
+                    setisAgrree(!isAgrree);
+                  }}
                   style={{
                     height: 20,
                     width: 20,
@@ -383,20 +460,26 @@ const MemberSignUpScreen = ({ navigation }) => {
                   }}
                 >
                   <Image
-                    source={isAgrree?images.Check:null}
+                    source={isAgrree ? images.Check : null}
                     style={{ height: 15, width: 15, alignSelf: "center" }}
                   ></Image>
                 </TouchableOpacity>
                 <Text style={styles.modaltextStyle1}>
                   {"I accept "}
                   <Text
-                    style={[styles.modaltextStyle1, { colors: colors.BLUETEXT }]}
+                    style={[
+                      styles.modaltextStyle1,
+                      { colors: colors.BLUETEXT },
+                    ]}
                   >
                     Privacy Policy
                   </Text>
                   {" and "}
                   <Text
-                    style={[styles.modaltextStyle1, { colors: colors.BLUETEXT }]}
+                    style={[
+                      styles.modaltextStyle1,
+                      { colors: colors.BLUETEXT },
+                    ]}
                   >
                     Terms and Conditions
                   </Text>
@@ -548,6 +631,19 @@ const styles = StyleSheet.create({
         ? responsiveScreenWidth(12)
         : responsiveScreenWidth(12),
   },
+  textInputstyle1: {
+    backgroundColor: colors.WHITE,
+    borderColor: colors.BLACK,
+    borderWidth: responsiveScreenWidth(0.1),
+    width: "100%",
+    alignSelf: "center",
+    margin: responsiveScreenWidth(3),
+    color: colors.BLACK,
+    height:
+      Platform.OS === "ios"
+        ? responsiveScreenWidth(12)
+        : responsiveScreenWidth(12),
+  },
   loginBtn: {
     width: "75%",
     alignSelf: "center",
@@ -574,7 +670,7 @@ const styles = StyleSheet.create({
     borderRadius: responsiveScreenWidth(1),
     borderColor: colors.BLACK,
     borderWidth: responsiveScreenWidth(0.1),
-    backgroundColor: colors.TEXTINPUTBACKGROUND,
+    backgroundColor: colors.WHITE,
     marginTop: responsiveScreenWidth(2),
     width: "100%",
     alignSelf: "center",

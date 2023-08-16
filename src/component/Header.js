@@ -11,7 +11,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { DrawerActions } from "@react-navigation/native";
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation } from "@react-navigation/native";
 // Custom ======================================================================================
 import colors from "../res/colors/colors";
 import images from "../res/imageConstant/images";
@@ -79,7 +79,11 @@ const Header = (props) => {
           style={{ marginTop: responsiveScreenWidth(1) }}
         >
           <Image
-            source={global.image === null || global.image === undefined ? images.ProfileIcon : { uri: global.image }}
+            source={
+              global.image === null || global.image === undefined
+                ? images.ProfileIcon
+                : { uri: global.image }
+            }
             resizeMode="contain"
             style={styles.ProfileIcon}
           />
@@ -88,102 +92,117 @@ const Header = (props) => {
     );
   };
   // Render ======================================================================================
-  return (<View>
-    <Modal transparent={true} visible={isModal} animationType="slide">
-      <View style={styles.modalView}>
-        <Text
-          onPress={() => {
-            navigation.navigate("PersonalInfoScreen");
-          }}
-          style={styles.modaltextStyle}
-        >
-          Profile Information
-        </Text>
-        <View style={styles.modalline} />
-        <Text
-          onPress={() => {
-            callLogOutApi();
-          }}
-          style={styles.modaltextStyle}
-        >
-          Logout
-        </Text>
-      </View>
-    </Modal>
-
-    <Modal transparent={true} visible={successModal} animationType="slide">
-      <View style={styles.modalView1}>
-        <Image
-          source={images.successIcon}
-          resizeMode="contain"
-          style={styles.ProfileIcon1}
-        />
-        <Text
-          style={styles.modaltextStyle1}
-        >
-          You have been logged out.
-        </Text>
-        <TouchableOpacity onPress={() => {
-          setsuccessModal(false)
-          navigation.navigate("MemberLoginScreen");
+  return (
+    <View>
+      <Modal
+        onRequestClose={() => {
+          console.log("Modal has been closed.");
+          setIsModal(!isModal);
         }}
-          style={{
-            width: "50%",
-            padding: responsiveScreenWidth(2),
-            marginTop: responsiveScreenWidth(8),
-            backgroundColor: colors.primary,
-            borderRadius: responsiveScreenWidth(2),
-            justifyContent: "center",
-            alignSelf: "center",
-            alignContent: "center"
-          }}
-        >
-          <Text style={{
-            color: colors.white, alignSelf: "center",
-            fontSize: responsiveScreenFontSize(1.8),
-            fontWeight: "bold",
-          }}>Thank You</Text>
-        </TouchableOpacity>
-      </View>
-    </Modal>
-    <Modal transparent={true} visible={failureModal} animationType="slide">
-      <View style={styles.modalView1}>
-        <Image
-          source={images.cancelcon}
-          resizeMode="contain"
-          style={styles.ProfileIcon1}
-        />
-        <Text
-          style={styles.modaltextStyle1}
-        >
-          Not able to log out from app.
-        </Text>
-        <TouchableOpacity onPress={() => {
-          setfailureModal(false)
-          // navigation.goBack()
-        }}
-          style={{
-            width: "50%",
-            padding: responsiveScreenWidth(2),
-            marginTop: responsiveScreenWidth(8),
-            backgroundColor: colors.primary,
-            borderRadius: responsiveScreenWidth(2),
-            justifyContent: "center",
-            alignSelf: "center",
-            alignContent: "center"
-          }}
-        >
-          <Text style={{
-            color: colors.white, alignSelf: "center",
-            fontSize: responsiveScreenFontSize(1.8),
-            fontWeight: "bold",
-          }}>Try Again</Text>
-        </TouchableOpacity>
-      </View>
-    </Modal>
+        transparent={true}
+        visible={isModal}
+        animationType="slide"
+      >
+        <View style={styles.modalView}>
+          <Text
+            onPress={() => {
+              navigation.navigate("PersonalInfoScreen");
+            }}
+            style={styles.modaltextStyle}
+          >
+            Profile Information
+          </Text>
+          <View style={styles.modalline} />
+          <Text
+            onPress={() => {
+              callLogOutApi();
+            }}
+            style={styles.modaltextStyle}
+          >
+            Logout
+          </Text>
+        </View>
+      </Modal>
 
-    <TopHeaderView />
-  </View>
+      <Modal transparent={true} visible={successModal} animationType="slide">
+        <View style={styles.modalView1}>
+          <Image
+            source={images.successIcon}
+            resizeMode="contain"
+            style={styles.ProfileIcon1}
+          />
+          <Text style={styles.modaltextStyle1}>You have been logged out.</Text>
+          <TouchableOpacity
+            onPress={() => {
+              setsuccessModal(false);
+              navigation.navigate("MemberLoginScreen");
+            }}
+            style={{
+              width: "50%",
+              padding: responsiveScreenWidth(2),
+              marginTop: responsiveScreenWidth(8),
+              backgroundColor: colors.primary,
+              borderRadius: responsiveScreenWidth(2),
+              justifyContent: "center",
+              alignSelf: "center",
+              alignContent: "center",
+            }}
+          >
+            <Text
+              style={{
+                color: colors.white,
+                alignSelf: "center",
+                fontSize: responsiveScreenFontSize(1.8),
+                fontWeight: "bold",
+              }}
+            >
+              Thank You
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
+      <Modal transparent={true} visible={failureModal} animationType="slide">
+        <View style={styles.modalView1}>
+          <Image
+            source={images.cancelcon}
+            resizeMode="contain"
+            style={styles.ProfileIcon1}
+          />
+          <Text style={styles.modaltextStyle1}>
+            Not able to log out from app.
+          </Text>
+          <TouchableOpacity
+            onPress={() => {
+              setfailureModal(false);
+              // navigation.goBack()
+            }}
+            style={{
+              width: "50%",
+              padding: responsiveScreenWidth(2),
+              marginTop: responsiveScreenWidth(8),
+              backgroundColor: colors.primary,
+              borderRadius: responsiveScreenWidth(2),
+              justifyContent: "center",
+              alignSelf: "center",
+              alignContent: "center",
+            }}
+          >
+            <Text
+              style={{
+                color: colors.white,
+                alignSelf: "center",
+                fontSize: responsiveScreenFontSize(1.8),
+                fontWeight: "bold",
+              }}
+            >
+              Try Again
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
+
+      <TopHeaderView />
+    </View>
   );
 };
 
@@ -263,7 +282,6 @@ const styles = StyleSheet.create({
     marginTop: 0,
   },
 
-
   modalView1: {
     width: "80%",
     height: responsiveScreenWidth(60),
@@ -288,15 +306,16 @@ const styles = StyleSheet.create({
     height: responsiveScreenWidth(20),
     width: responsiveScreenWidth(20),
     justifyContent: "center",
-    alignSelf: "center"
-  }, modaltextStyle1: {
+    alignSelf: "center",
+  },
+  modaltextStyle1: {
     color: colors.BLACK,
     fontSize: responsiveScreenFontSize(1.8),
     marginTop: responsiveScreenWidth(8),
     fontWeight: "bold",
     width: "100%",
     alignSelf: "center",
-    textAlign: "center"
+    textAlign: "center",
   },
 });
 

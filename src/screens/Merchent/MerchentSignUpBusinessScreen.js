@@ -186,7 +186,15 @@ const MerchentSignUpBusinessScreen = ({ navigation, route }) => {
       <ScrollView style={styles.container}>
         <KeyboardAvoidingView style={styles.container}>
           <View style={styles.container}>
-            <Text style={styles.loginText}>{strings.EnterBusinessDetail}</Text>
+          <View style={{flexDirection:"row"}}>
+              <TouchableOpacity onPress={()=>{
+                navigation.goBack()
+              }}>
+
+ <Image source={images.leftArrow} style={{height:responsiveScreenWidth(5),width:responsiveScreenWidth(5),margin:responsiveScreenWidth(5)}}/>
+              </TouchableOpacity>
+            <Text style={[styles.loginText,{marginTop:responsiveScreenWidth(1)}]}>{strings.EnterBusinessDetail}</Text>
+            </View>
 
             <View style={styles.mainview}>
               <Dropdown
@@ -479,6 +487,7 @@ const styles = StyleSheet.create({
   textInputstyle: {
     backgroundColor: colors.white,
     borderColor: colors.BLACK,
+    color:colors.BLACK,
     borderWidth: responsiveScreenWidth(0.2),
     fontSize: responsiveScreenFontSize(2),
     width: "100%",

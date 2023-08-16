@@ -1,5 +1,6 @@
 export default images={
     LogoIcon:require("../images/logoicon.png"),
+    logoWithName:require("../images/logoWithName.png"),
     Check:require("../images/check.png"),
     InvisibleIcon:require("../images/invisible.png"),
     EyeIcon:require("../images/view.png"),
