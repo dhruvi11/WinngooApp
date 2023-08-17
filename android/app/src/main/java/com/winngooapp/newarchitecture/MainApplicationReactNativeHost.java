@@ -1,4 +1,4 @@
-package com.WinngooApp.newarchitecture;
+package com.winngooapp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.WinngooApp.BuildConfig;
-import com.WinngooApp.newarchitecture.components.MainComponentsRegistry;
-import com.WinngooApp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.winngooapp.BuildConfig;
+import com.winngooapp.newarchitecture.components.MainComponentsRegistry;
+import com.winngooapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

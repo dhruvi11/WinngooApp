@@ -35,14 +35,24 @@ const MemberLoginScreen = ({ navigation }) => {
   // ==========================================Api Call================
   const loginApiCall = async () => {
     setIsLoading(true);
-    var data = {
-      email: email,
-      password: password,
+    
+    var myHeaders = new Headers();
+    myHeaders.append("Accept", "application/json");
+
+    var formdata = new FormData();
+    formdata.append("email", email);
+    formdata.append("password", password);
+
+    var requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: formdata,
+      redirect: "follow",
     };
 
-    await axios
-      .post(BaseURL + EndPoint.LOGIN, data)
-      .then(async (res) => {
+    fetch(BaseURL + EndPoint.LOGIN, requestOptions)
+      .then((response) => response.json())
+      .then((result) => {
         console.log(JSON.stringify(res.data));
         setIsLoading(false);
         storeData(res.data.result.token);

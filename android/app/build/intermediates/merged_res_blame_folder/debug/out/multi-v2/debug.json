@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ne_values-ne.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ne_values-ne.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ne/values-ne.xml",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-pa_values-pa.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-pa_values-pa.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-pa/values-pa.xml",
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-en-rAU_values-en-rAU.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-en-rAU/values-en-rAU.xml",
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v26_values-v26.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v26_values-v26.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v26/values-v26.xml",
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ro_values-ro.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ro_values-ro.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-ro/values-ro.xml",
@@ -153,7 +153,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-h720dp-v13_values-h720dp-v13.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-h720dp-v13_values-h720dp-v13.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-h720dp-v13/values-h720dp-v13.xml",
@@ -168,7 +168,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-xlarge-v4_values-xlarge-v4.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-xlarge-v4_values-xlarge-v4.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-xlarge-v4/values-xlarge-v4.xml",
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-zh-rTW/values-zh-rTW.xml",
@@ -215,7 +215,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-gu_values-gu.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-gu_values-gu.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-gu/values-gu.xml",
@@ -247,7 +247,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-bg_values-bg.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-bg_values-bg.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-bg/values-bg.xml",
@@ -279,7 +279,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-mn_values-mn.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-mn_values-mn.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-mn/values-mn.xml",
@@ -311,7 +311,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-eu_values-eu.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-eu_values-eu.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-eu/values-eu.xml",
@@ -343,7 +343,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-lv_values-lv.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-lv_values-lv.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-lv/values-lv.xml",
@@ -375,7 +375,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-zu_values-zu.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-zu_values-zu.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-zu/values-zu.xml",
@@ -407,7 +407,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-or_values-or.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-or_values-or.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-or/values-or.xml",
@@ -439,7 +439,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v17_values-v17.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v17_values-v17.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v17/values-v17.xml",
@@ -455,7 +455,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-af_values-af.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-af_values-af.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-af/values-af.xml",
@@ -487,7 +487,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-zh-rCN_values-zh-rCN.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-zh-rCN/values-zh-rCN.xml",
@@ -519,7 +519,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-es-rUS_values-es-rUS.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-es-rUS_values-es-rUS.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-es-rUS/values-es-rUS.xml",
@@ -551,7 +551,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-en-rCA_values-en-rCA.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-en-rCA_values-en-rCA.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-en-rCA/values-en-rCA.xml",
@@ -583,7 +583,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-gl_values-gl.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-gl_values-gl.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-gl/values-gl.xml",
@@ -615,7 +615,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-km_values-km.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-km_values-km.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-km/values-km.xml",
@@ -647,7 +647,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-el_values-el.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-el_values-el.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-el/values-el.xml",
@@ -679,7 +679,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-mr_values-mr.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-mr_values-mr.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-mr/values-mr.xml",
@@ -711,7 +711,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-w480dp-port-v13_values-w480dp-port-v13.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-w480dp-port-v13/values-w480dp-port-v13.xml",
@@ -726,7 +726,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-night-v8_values-night-v8.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-night-v8/values-night-v8.xml",
@@ -765,7 +765,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-bs_values-bs.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-bs_values-bs.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-bs/values-bs.xml",
@@ -797,7 +797,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-en-rIN_values-en-rIN.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-en-rIN_values-en-rIN.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-en-rIN/values-en-rIN.xml",
@@ -829,7 +829,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-in_values-in.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-in_values-in.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-in/values-in.xml",
@@ -861,7 +861,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-iw_values-iw.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-iw_values-iw.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-iw/values-iw.xml",
@@ -893,7 +893,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-h480dp-land-v13_values-h480dp-land-v13.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",
@@ -908,7 +908,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-uz_values-uz.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-uz_values-uz.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-uz/values-uz.xml",
@@ -940,7 +940,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v16_values-v16.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v16_values-v16.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-v16/values-v16.xml",
@@ -974,7 +974,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-hy_values-hy.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-hy_values-hy.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-hy/values-hy.xml",
@@ -1006,7 +1006,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-nb_values-nb.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-nb_values-nb.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-nb/values-nb.xml",
@@ -1038,7 +1038,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-be_values-be.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-be_values-be.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-be/values-be.xml",
@@ -1070,7 +1070,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-da_values-da.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-da_values-da.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-da/values-da.xml",
@@ -1102,7 +1102,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-th_values-th.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-th_values-th.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-th/values-th.xml",
@@ -1134,7 +1134,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-is_values-is.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-is_values-is.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-is/values-is.xml",
@@ -1166,7 +1166,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-hu_values-hu.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-hu_values-hu.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-hu/values-hu.xml",
@@ -1198,7 +1198,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sk_values-sk.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sk_values-sk.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-sk/values-sk.xml",
@@ -1230,7 +1230,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-nl_values-nl.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-nl_values-nl.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-nl/values-nl.xml",
@@ -1262,7 +1262,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v22_values-v22.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v22_values-v22.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
@@ -1286,7 +1286,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ms_values-ms.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ms_values-ms.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-ms/values-ms.xml",
@@ -1318,7 +1318,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-kn_values-kn.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-kn_values-kn.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-kn/values-kn.xml",
@@ -1350,7 +1350,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v24_values-v24.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v24_values-v24.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-tr_values-tr.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-tr_values-tr.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-tr/values-tr.xml",
@@ -1397,7 +1397,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-h360dp-land-v13_values-h360dp-land-v13.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
@@ -1412,7 +1412,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-uk_values-uk.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-uk_values-uk.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-uk/values-uk.xml",
@@ -1444,7 +1444,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-kk_values-kk.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-kk_values-kk.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-kk/values-kk.xml",
@@ -1476,7 +1476,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-pt-rPT_values-pt-rPT.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-pt-rPT_values-pt-rPT.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-pt-rPT/values-pt-rPT.xml",
@@ -1508,7 +1508,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-small-v4_values-small-v4.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-small-v4_values-small-v4.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",
@@ -1523,7 +1523,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-watch-v21_values-watch-v21.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-watch-v21_values-watch-v21.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",
@@ -1539,7 +1539,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-vi_values-vi.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-vi_values-vi.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-vi/values-vi.xml",
@@ -1571,7 +1571,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-lt_values-lt.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-lt_values-lt.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-lt/values-lt.xml",
@@ -1603,7 +1603,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-fr-rCA_values-fr-rCA.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-fr-rCA_values-fr-rCA.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-fr-rCA/values-fr-rCA.xml",
@@ -1635,7 +1635,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-my_values-my.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-my_values-my.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-my/values-my.xml",
@@ -1667,7 +1667,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-fa_values-fa.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-fa_values-fa.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-fa/values-fa.xml",
@@ -1699,7 +1699,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ur_values-ur.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ur_values-ur.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ur/values-ur.xml",
@@ -1731,7 +1731,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v28_values-v28.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
@@ -1765,7 +1765,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-en-rGB_values-en-rGB.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-en-rGB_values-en-rGB.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-en-rGB/values-en-rGB.xml",
@@ -1797,7 +1797,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -1829,7 +1829,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-hdpi-v4_values-hdpi-v4.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-hdpi-v4_values-hdpi-v4.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
@@ -1845,7 +1845,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sv_values-sv.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sv_values-sv.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-sv/values-sv.xml",
@@ -1877,7 +1877,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-port_values-port.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-port_values-port.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-port/values-port.xml",
@@ -1892,7 +1892,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-pt-rBR_values-pt-rBR.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-pt-rBR_values-pt-rBR.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-pt-rBR/values-pt-rBR.xml",
@@ -1924,7 +1924,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-pl_values-pl.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-pl_values-pl.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-pl/values-pl.xml",
@@ -1956,7 +1956,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-de_values-de.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-de_values-de.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-de/values-de.xml",
@@ -1988,7 +1988,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-zh-rHK_values-zh-rHK.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-zh-rHK/values-zh-rHK.xml",
@@ -2020,7 +2020,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-am_values-am.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-am_values-am.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-am/values-am.xml",
@@ -2052,7 +2052,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v18_values-v18.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v18_values-v18.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v18/values-v18.xml",
@@ -2067,7 +2067,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ru_values-ru.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ru_values-ru.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ru/values-ru.xml",
@@ -2099,7 +2099,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-it_values-it.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-it_values-it.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-it/values-it.xml",
@@ -2131,7 +2131,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ky_values-ky.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ky_values-ky.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-ky/values-ky.xml",
@@ -2163,7 +2163,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-az_values-az.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-az_values-az.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-az/values-az.xml",
@@ -2195,7 +2195,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-si_values-si.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-si_values-si.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-si/values-si.xml",
@@ -2227,7 +2227,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-mk_values-mk.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-mk_values-mk.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-mk/values-mk.xml",
@@ -2259,7 +2259,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ldltr-v21_values-ldltr-v21.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ldltr-v21_values-ldltr-v21.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ldltr-v21/values-ldltr-v21.xml",
@@ -2274,7 +2274,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ar_values-ar.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ar_values-ar.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ar/values-ar.xml",
@@ -2306,7 +2306,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values_values.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values_values.arsc.flat",
             "map": [
                 {
                     "source": "/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/res/values/styles.xml",
@@ -2694,7 +2694,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sq_values-sq.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sq_values-sq.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-sq/values-sq.xml",
@@ -2726,7 +2726,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ko_values-ko.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ko_values-ko.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-ko/values-ko.xml",
@@ -2758,7 +2758,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-bn_values-bn.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-bn_values-bn.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-bn/values-bn.xml",
@@ -2790,7 +2790,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ja_values-ja.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ja_values-ja.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-ja/values-ja.xml",
@@ -2822,7 +2822,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-te_values-te.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-te_values-te.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-te/values-te.xml",
@@ -2854,7 +2854,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sl_values-sl.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sl_values-sl.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-sl/values-sl.xml",
@@ -2886,7 +2886,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-w360dp-port-v13_values-w360dp-port-v13.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
@@ -2901,7 +2901,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-es_values-es.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-es_values-es.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-es/values-es.xml",
@@ -2933,7 +2933,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
@@ -2967,7 +2967,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-large-v4_values-large-v4.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-large-v4_values-large-v4.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
@@ -2999,7 +2999,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-pt_values-pt.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-pt_values-pt.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-pt/values-pt.xml",
@@ -3031,7 +3031,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-tl_values-tl.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-tl_values-tl.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-tl/values-tl.xml",
@@ -3063,7 +3063,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v25_values-v25.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v25_values-v25.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v25/values-v25.xml",
@@ -3079,7 +3079,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ka_values-ka.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ka_values-ka.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-ka/values-ka.xml",
@@ -3111,7 +3111,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-hi_values-hi.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-hi_values-hi.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-hi/values-hi.xml",
@@ -3143,7 +3143,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-hr_values-hr.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-hr_values-hr.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-hr/values-hr.xml",
@@ -3175,7 +3175,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sw_values-sw.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sw_values-sw.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-sw/values-sw.xml",
@@ -3207,7 +3207,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ta_values-ta.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ta_values-ta.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ta/values-ta.xml",
@@ -3239,7 +3239,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-cs_values-cs.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-cs_values-cs.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-cs/values-cs.xml",
@@ -3271,7 +3271,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-en-rXC_values-en-rXC.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-en-rXC_values-en-rXC.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-en-rXC/values-en-rXC.xml",
@@ -3303,7 +3303,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-fi_values-fi.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-fi_values-fi.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-fi/values-fi.xml",
@@ -3335,7 +3335,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-land_values-land.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-land_values-land.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-land/values-land.xml",
@@ -3369,7 +3369,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-as_values-as.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-as_values-as.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-as/values-as.xml",
@@ -3401,7 +3401,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-lo_values-lo.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-lo_values-lo.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-lo/values-lo.xml",
@@ -3433,7 +3433,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-watch-v20_values-watch-v20.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-watch-v20_values-watch-v20.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
@@ -3449,7 +3449,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ml_values-ml.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ml_values-ml.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ml/values-ml.xml",
@@ -3481,7 +3481,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-et_values-et.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-et_values-et.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-et/values-et.xml",
@@ -3513,7 +3513,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-ca_values-ca.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-ca_values-ca.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-ca/values-ca.xml",
@@ -3545,7 +3545,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v21_values-v21.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-v21/values-v21.xml",
@@ -3607,7 +3607,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-sr_values-sr.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-sr_values-sr.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dcf394875876b97b003fe287ee4707d2/transformed/core-1.7.0/res/values-sr/values-sr.xml",
@@ -3639,7 +3639,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-v23_values-v23.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-v23_values-v23.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3e0ca01ef299c9f437f742f85f21e709/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
@@ -3701,7 +3701,7 @@
             ]
         },
         {
-            "outputFile": "com.WinngooApp.app-merged_res-29:/values-fr_values-fr.arsc.flat",
+            "outputFile": "com.winngooapp.app-merged_res-29:/values-fr_values-fr.arsc.flat",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/3d4a32dcf9123d45da3b1b06de827720/transformed/appcompat-1.4.1/res/values-fr/values-fr.xml",

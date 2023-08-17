@@ -1,4 +1,4 @@
-package com.WinngooApp;
+package com.winngooapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

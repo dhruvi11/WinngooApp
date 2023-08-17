@@ -35,15 +35,23 @@ const MerchentLoginScreen = ({ navigation }) => {
   const [isLoading, setIsLoading] = useState(false);
   // ==========================================Api Call================
   const loginApiCall = async () => {
-    setIsLoading(true);
-    var data = {
-      email: email,
-      password: password,
+    var myHeaders = new Headers();
+    myHeaders.append("Accept", "application/json");
+
+    var formdata = new FormData();
+    formdata.append("email", email);
+    formdata.append("password", password);
+
+    var requestOptions = {
+      method: "POST",
+      headers: myHeaders,
+      body: formdata,
+      redirect: "follow",
     };
 
-    await axios
-      .post(BaseURL + EndPoint.LOGIN, data)
-      .then(async (res) => {
+    fetch(BaseURL + EndPoint.LOGIN, requestOptions)
+      .then((response) => response.json())
+      .then((result) => {
         console.log(JSON.stringify(res.data));
         setIsLoading(false);
         storeData(res.data.result.token);
@@ -58,7 +66,7 @@ const MerchentLoginScreen = ({ navigation }) => {
     try {
       await AsyncStorage.setItem("isLogin", "true");
       await AsyncStorage.setItem("loginType", "merchent");
-      global.loginTypeTemp="merchent"
+      global.loginTypeTemp = "merchent";
       await AsyncStorage.setItem("token", value);
       navigation.navigate("DrawerNavigator");
     } catch (e) {
@@ -103,19 +111,20 @@ const MerchentLoginScreen = ({ navigation }) => {
               color: colors.BLACK,
             }}
           />
-          <TouchableOpacity    onPress={() => {
-                setIsShowPassword(!isShowPassword);
-              }}>
-
-          <Image
-            source={isShowPassword ? images.EyeIcon : images.InvisibleIcon}
-            style={{
-              height: responsiveScreenWidth(5),
-              width: responsiveScreenWidth(5),
-              marginTop:responsiveScreenWidth(3)
+          <TouchableOpacity
+            onPress={() => {
+              setIsShowPassword(!isShowPassword);
             }}
+          >
+            <Image
+              source={isShowPassword ? images.EyeIcon : images.InvisibleIcon}
+              style={{
+                height: responsiveScreenWidth(5),
+                width: responsiveScreenWidth(5),
+                marginTop: responsiveScreenWidth(3),
+              }}
             />
-            </TouchableOpacity>
+          </TouchableOpacity>
         </View>
         {isPasswordError ? (
           <Text style={styles.errMsg}>{strings.EnterPasswordErr}</Text>
@@ -205,7 +214,10 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     margin: responsiveScreenWidth(3),
     color: colors.BLACK,
-    height:Platform.OS==="ios"?responsiveScreenWidth(12):responsiveScreenWidth(12)
+    height:
+      Platform.OS === "ios"
+        ? responsiveScreenWidth(12)
+        : responsiveScreenWidth(12),
   },
   textInputstyle1: {
     backgroundColor: colors.TEXTINPUTBACKGROUND,

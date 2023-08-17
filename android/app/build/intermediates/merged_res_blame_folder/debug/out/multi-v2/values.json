@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values/values.xml",
+            "outputFile": "com.winngooapp.app-mergeDebugResources-27:/values/values.xml",
             "map": [
                 {
                     "source": "/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/res/values/styles.xml",

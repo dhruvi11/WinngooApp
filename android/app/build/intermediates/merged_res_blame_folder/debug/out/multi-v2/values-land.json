@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.WinngooApp.app-mergeDebugResources-27:/values-land/values-land.xml",
+            "outputFile": "com.winngooapp.app-mergeDebugResources-27:/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/816f25e22cc6b5385975512df6591ff0/transformed/material-1.1.0/res/values-land/values-land.xml",

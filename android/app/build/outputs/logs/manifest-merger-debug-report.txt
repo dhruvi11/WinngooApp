@@ -161,7 +161,7 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/apple/.gradle/caches
 	android:name
 		ADDED from /Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:9:7-38
 		ADDED from /Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:9:7-38
-activity#com.WinngooApp.MainActivity
+activity#com.winngooapp.MainActivity
 ADDED from /Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:15:7-26:18
 	android:label
 		ADDED from /Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:17:9-41
