@@ -14,6 +14,7 @@ import {
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import axios from "axios";
 import Spinner from "react-native-loading-spinner-overlay/lib";
+import { launchImageLibrary } from "react-native-image-picker";
 // Custom ======================================================================================
 import colors from "../../../res/colors/colors";
 import images from "../../../res/imageConstant/images";

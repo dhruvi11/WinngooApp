@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.winngooapp"
+4    android:versionCode="3"
+5    android:versionName="3.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:5:1-61
+12-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:5:18-58
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:6:1-77
+13-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:6:18-74
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-community_netinfo] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[:react-native-community_netinfo] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+15-->[:react-native-community_netinfo] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+16
+17    <application
+17-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:8:5-27:19
+18        android:name="com.winngooapp.MainApplication"
+18-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:9:7-38
+19        android:allowBackup="false"
+19-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:13:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/apple/.gradle/caches/transforms-3/efec5fafe039b3bdbf001de171817102/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/logoicon"
+21-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:11:7-38
+22        android:label="@string/app_name"
+22-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:10:7-39
+23        android:roundIcon="@mipmap/logoicon"
+23-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:12:7-43
+24        android:theme="@style/AppTheme" >
+24-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:14:7-38
+25        <activity
+25-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:15:7-26:18
+26            android:name="com.winngooapp.MainActivity"
+26-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:16:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+27-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:18:9-118
+28            android:exported="true"
+28-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:21:9-32
+29            android:label="@string/app_name"
+29-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:17:9-41
+30            android:launchMode="singleTask"
+30-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:19:9-40
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:20:9-51
+32            <intent-filter>
+32-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:22:9-25:25
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:23:13-65
+33-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:23:21-62
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:24:13-73
+35-->/Volumes/dhruvika/Demo/idzigns/WinngooApp/android/app/src/main/AndroidManifest.xml:24:23-70
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+40            android:name="com.imagepicker.ImagePickerProvider"
+40-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+41            android:authorities="com.winngooapp.imagepickerprovider"
+41-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+42            android:exported="false"
+42-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+43            android:grantUriPermissions="true" >
+43-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+44            <meta-data
+44-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+45                android:name="android.support.FILE_PROVIDER_PATHS"
+45-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+46                android:resource="@xml/imagepicker_provider_paths" />
+46-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+47        </provider>
+48        <provider
+48-->[:react-native-webview] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+49            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+49-->[:react-native-webview] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+50            android:authorities="com.winngooapp.fileprovider"
+50-->[:react-native-webview] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+51            android:exported="false"
+51-->[:react-native-webview] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+52            android:grantUriPermissions="true" >
+52-->[:react-native-webview] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+53            <meta-data
+53-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+54                android:name="android.support.FILE_PROVIDER_PATHS"
+54-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+55                android:resource="@xml/file_provider_paths" />
+55-->[:react-native-image-picker] /Volumes/dhruvika/Demo/idzigns/WinngooApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+56        </provider>
+57        <provider
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+59            android:authorities="com.winngooapp.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/apple/.gradle/caches/transforms-3/05459f6ebf8233675e5d81ba13f5a233/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/df4ad10f15bfdd3c604cb8fbf72a36e0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/df4ad10f15bfdd3c604cb8fbf72a36e0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/apple/.gradle/caches/transforms-3/df4ad10f15bfdd3c604cb8fbf72a36e0/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

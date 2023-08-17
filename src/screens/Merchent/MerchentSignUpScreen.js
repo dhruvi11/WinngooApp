@@ -29,6 +29,7 @@ import { BaseURL, EndPoint } from "../../api/ApiConstant";
 const genderList = [
   { label: "Female", value: "Female" },
   { label: "Male", value: "Male" },
+  { label: "Other", value: "other" },
 ];
 const MerchentSignUpScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
@@ -39,7 +40,7 @@ const MerchentSignUpScreen = ({ navigation }) => {
   const [lastName, setLastName] = useState("");
   const [gender, setGender] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
-
+  const [isAgrree, setisAgrree] = useState(false);
   const [emailErr, setEmailErr] = useState(false);
   const [confirmEmailErr, setConfirmEmailErr] = useState(false);
   const [confirmPasswordErr, setConfirmPasswordErr] = useState(false);
@@ -50,7 +51,8 @@ const MerchentSignUpScreen = ({ navigation }) => {
   const [phoneNumberErr, setPhoneNumberErr] = useState(false);
   const [matchPasswordErr, setMatchPasswordErr] = useState(false);
   const [matchEmailErr, setMatchEmailErr] = useState(false);
-
+  const [isShowPassword, setIsShowPassword] = useState(true);
+  const [isShowPassword1, setIsShowPassword1] = useState(true);
   // ==========================================Api Call================
   const validationForm = () => {
     var regexEmail = "/^[w-.]+@([w-]+.)+[w-]{2,4}$/";
@@ -62,22 +64,22 @@ const MerchentSignUpScreen = ({ navigation }) => {
       setLastNameErr(true);
     } else if (gender === "") {
       setGenderErr(true);
-    } else if (email === "" || !regexEmail.test(email)) {
+    } else if (email === "") {
       setEmailErr(true);
-    } else if (confirmEmail === "" || !regexEmail.test(confirmEmail)) {
+    } else if (confirmEmail === "") {
       setConfirmEmailErr(true);
     } else if (confirmEmail !== email) {
       setMatchEmailErr(true);
-    } else if (password === "" || !regexPassword.test(password)) {
+    } else if (password === "") {
       setPasswordErr(true);
-    } else if (confirmPassword === "" || !regexPassword.test(confirmPassword)) {
+    } else if (confirmPassword === "") {
       setConfirmPasswordErr(true);
     } else if (confirmPassword !== password) {
       setMatchPasswordErr(true);
     } else if (phoneNumber === "") {
       setPhoneNumberErr(true);
     } else {
-      setUserDetail();
+      setUserDetail()
     }
   };
   const setUserDetail = async () => {
@@ -88,6 +90,7 @@ const MerchentSignUpScreen = ({ navigation }) => {
         gender: gender,
         email: email,
         password: password,
+        phoneNumber: phoneNumber,
       };
       navigation.navigate("MerchentSignUpAddressScreen", { details: data });
     } catch (e) {
@@ -100,7 +103,15 @@ const MerchentSignUpScreen = ({ navigation }) => {
       <ScrollView style={styles.container}>
         <KeyboardAvoidingView style={styles.container}>
           <View style={styles.container}>
-            <Text style={styles.loginText}>{strings.PersonalDetail}</Text>
+          <View style={{flexDirection:"row"}}>
+              <TouchableOpacity onPress={()=>{
+                navigation.goBack()
+              }}>
+
+<Image source={images.leftArrow} style={{height:responsiveScreenWidth(5),width:responsiveScreenWidth(5),margin:responsiveScreenWidth(5)}}/>
+              </TouchableOpacity>
+            <Text style={[styles.loginText,{marginTop:responsiveScreenWidth(1)}]}>{strings.PersonalDetail}</Text>
+            </View>
             <View style={styles.mainview}>
               <TextInput
                 value={firstName}
@@ -141,7 +152,7 @@ const MerchentSignUpScreen = ({ navigation }) => {
                 value={gender}
                 onChange={(item) => {
                   setGender(item.value);
-                  setGenderErr(false);
+                  setGenderErr(item.label);
                 }}
               />
               {genderErr ? (
@@ -180,27 +191,73 @@ const MerchentSignUpScreen = ({ navigation }) => {
                   {strings.EnterMatchEmailErr}
                 </Text>
               ) : null}
-              <TextInput
-                value={password}
-                onChangeText={(password) => {
-                  setPassword(password);
-                  setPasswordErr(false);
-                }}
-                placeholder={strings.EnterPassword}
-                style={styles.textInputstyle}
-              />
+                <View style={[styles.textInputstyle1, { flexDirection: "row" }]}>
+                <TextInput
+                  value={password}
+                  onChangeText={(password) => {
+                    setPassword(password);
+                  }}
+                  secureTextEntry={isShowPassword}
+                  placeholder={strings.EnterPassword}
+                  style={{
+                    fontSize: responsiveScreenFontSize(2),
+                    width: "85%",
+                    alignSelf: "center",
+                    color: colors.BLACK,
+                  }}
+                />
+                <TouchableOpacity
+                  onPress={() => {
+                    setIsShowPassword(!isShowPassword);
+                  }}
+                >
+                  <Image
+                    source={
+                      isShowPassword ? images.EyeIcon : images.InvisibleIcon
+                    }
+                    style={{
+                      height: responsiveScreenWidth(5),
+                      width: responsiveScreenWidth(5),
+                      marginTop: responsiveScreenWidth(3),
+                    }}
+                  />
+                </TouchableOpacity>
+              </View>
               {passwordErr ? (
                 <Text style={styles.starText}>{strings.EnterPasswordErr}</Text>
               ) : null}
-              <TextInput
-                value={confirmPassword}
-                onChangeText={(confirmPassword) => {
-                  setConfirmPassword(confirmPassword);
-                  setConfirmPasswordErr(false);
-                }}
-                placeholder={strings.EnterConfirmPassword}
-                style={styles.textInputstyle}
-              />
+             <View style={[styles.textInputstyle1, { flexDirection: "row" }]}>
+                <TextInput
+                  value={confirmPassword}
+                  onChangeText={(confirmPassword) => {
+                    setConfirmPassword(confirmPassword);
+                  }}
+                  secureTextEntry={isShowPassword1}
+                  placeholder={strings.EnterPassword}
+                  style={{
+                    fontSize: responsiveScreenFontSize(2),
+                    width: "85%",
+                    alignSelf: "center",
+                    color: colors.BLACK,
+                  }}
+                />
+                <TouchableOpacity
+                  onPress={() => {
+                    setIsShowPassword1(!isShowPassword1);
+                  }}
+                >
+                  <Image
+                    source={
+                      isShowPassword1 ? images.EyeIcon : images.InvisibleIcon
+                    }
+                    style={{
+                      height: responsiveScreenWidth(5),
+                      width: responsiveScreenWidth(5),
+                      marginTop: responsiveScreenWidth(3),
+                    }}
+                  />
+                </TouchableOpacity>
+              </View>
               {confirmPasswordErr ? (
                 <Text style={styles.starText}>
                   {strings.EnterConfirmPasswordErr}
@@ -274,13 +331,31 @@ const styles = StyleSheet.create({
   textInputstyle: {
     backgroundColor: colors.white,
     borderColor: colors.BLACK,
+    color:colors.BLACK,
     borderWidth: responsiveScreenWidth(0.2),
     fontSize: responsiveScreenFontSize(2),
+    
     width: "100%",
     alignSelf: "center",
     margin: responsiveScreenWidth(3),
     marginTop: responsiveScreenWidth(4),
-    height:Platform.OS==="ios"?responsiveScreenWidth(12):responsiveScreenWidth(12)
+    height:
+      Platform.OS === "ios"
+        ? responsiveScreenWidth(12)
+        : responsiveScreenWidth(12),
+  },
+  textInputstyle1: {
+    backgroundColor: colors.WHITE,
+    borderColor: colors.BLACK,
+    borderWidth: responsiveScreenWidth(0.1),
+    width: "100%",
+    alignSelf: "center",
+    margin: responsiveScreenWidth(3),
+    color: colors.BLACK,
+    height:
+      Platform.OS === "ios"
+        ? responsiveScreenWidth(12)
+        : responsiveScreenWidth(12),
   },
   loginBtn: {
     width: "75%",
@@ -325,12 +400,15 @@ const styles = StyleSheet.create({
     zIndex: 999,
     paddingHorizontal: 8,
     fontSize: 14,
+    color: colors.BLACK,
   },
   placeholderStyle: {
     fontSize: 16,
+    color: colors.BLACK,
   },
   selectedTextStyle: {
     fontSize: 16,
+    color: colors.BLACK,
   },
   iconStyle: {
     width: 20,
@@ -339,6 +417,7 @@ const styles = StyleSheet.create({
   inputSearchStyle: {
     height: 40,
     fontSize: 16,
+    color: colors.BLACK,
   },
   imageicon: {
     height: responsiveScreenWidth(20),
@@ -347,6 +426,7 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     margin: responsiveScreenWidth(5),
   },
+
 });
 
 export default MerchentSignUpScreen;

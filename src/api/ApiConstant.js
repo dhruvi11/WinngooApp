@@ -1,4 +1,4 @@
-export const BaseURL="https://winngoo.co.uk/api"
+export const BaseURL="https://WinngooApp.co.uk/api"
 
 export const EndPoint={
     LOGIN:"/user/login",
@@ -25,7 +25,7 @@ export const EndPoint={
    FRANCHISES :"/merchant/franchises",
   MERCHENTTAGLINE:"/merchant/tagline/",
   MERCHENTTAGLINELIST:"/merchant/tagline",
-  WINNGOOCARDDETAIL:"/member/winngoo-card",
+  WinngooAppCARDDETAIL:"/member/WinngooApp-card",
   REFERRALTRANSACTION:"/referral-transactions",
 TRANSACTIONHISTORY :"/merchant/transaction-history",
 MEMBERDETAILINTERFACE:"/member-detail",

@@ -535,8 +535,6 @@
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="accessibility_action_clickable_span" type="id"/>
     <item name="accessibility_actions" type="id"/>
-    <item name="accessibility_collection" type="id"/>
-    <item name="accessibility_collection_item" type="id"/>
     <item name="accessibility_custom_action_0" type="id"/>
     <item name="accessibility_custom_action_1" type="id"/>
     <item name="accessibility_custom_action_10" type="id"/>
@@ -594,11 +592,8 @@
     <item name="mtrl_internal_children_alpha_tag" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="pointer_enter" type="id"/>
-    <item name="pointer_enter_capture" type="id"/>
     <item name="pointer_leave" type="id"/>
-    <item name="pointer_leave_capture" type="id"/>
     <item name="pointer_move" type="id"/>
-    <item name="pointer_move_capture" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="react_test_id" type="id"/>

@@ -29,6 +29,7 @@ import { BaseURL, EndPoint } from "../../api/ApiConstant";
 const genderList = [
   { label: "Female", value: "Female" },
   { label: "Male", value: "Male" },
+  { label: "Other", value: "other" },
 ];
 const MerchentSignUpAddressScreen = ({ navigation ,route}) => {
   const [addressLine1, setAddressLine1] = useState("");
@@ -36,7 +37,7 @@ const MerchentSignUpAddressScreen = ({ navigation ,route}) => {
   const [addressLine3, setAddressLine3] = useState("");
   const [city, setCity] = useState("");
   const [postCode, setPostCode] = useState("");
-  const [country, setCountry] = useState("");
+  const [country, setCountry] = useState("United Kingdom");
 
   const [addressLine1Err, setAddressLine1Err] = useState(false);
   const [cityErr, setCityErr] = useState(false);
@@ -69,7 +70,7 @@ const MerchentSignUpAddressScreen = ({ navigation ,route}) => {
         country:country,
         postCode:postCode
       };
-      navigation.navigate("MerchentSignUpBusinessScreen", { addressdetail: data,detail:route.details });
+      navigation.navigate("MerchentSignUpBusinessScreen", { addressdetail: data,detail:route.params });
     } catch (e) {
       console.log(e);
     }
@@ -80,7 +81,15 @@ const MerchentSignUpAddressScreen = ({ navigation ,route}) => {
       <ScrollView style={styles.container}>
         <KeyboardAvoidingView style={styles.container}>
           <View style={styles.container}>
-            <Text style={styles.loginText}>{strings.AddressDetail}</Text>
+          <View style={{flexDirection:"row"}}>
+              <TouchableOpacity onPress={()=>{
+                navigation.goBack()
+              }}>
+
+<Image source={images.leftArrow} style={{height:responsiveScreenWidth(5),width:responsiveScreenWidth(5),margin:responsiveScreenWidth(5)}}/>
+              </TouchableOpacity>
+            <Text style={[styles.loginText,{marginTop:responsiveScreenWidth(1)}]}>{strings.AddressDetail}</Text>
+            </View>
 
             <View style={styles.mainview}>
               <TextInput
@@ -125,10 +134,11 @@ const MerchentSignUpAddressScreen = ({ navigation ,route}) => {
               ) : null}
               <TextInput
                 value={country}
-                onChangeText={(country) => {
-                  setCountry(country);
-                  setCountryErr(false)
-                }}
+                // onChangeText={(country) => {
+                //   setCountry(country);
+                //   setCountryErr(false)
+                // }}
+                editable={false}
                 placeholder={strings.EnterCountry}
                 style={styles.textInputstyle}
               />
@@ -196,6 +206,7 @@ const styles = StyleSheet.create({
   textInputstyle: {
     backgroundColor: colors.white,
     borderColor: colors.BLACK,
+    color:colors.BLACK,
     borderWidth: responsiveScreenWidth(0.2),
     fontSize: responsiveScreenFontSize(2),
     width: "100%",
